@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown Frog Pivnice</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food">
+    <meta name="description" content="This is a Restaurant html remplate made by codewithsadee">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preload" as="image" href="prostor3.jpeg">
+<link rel="preload" as="image" href="prostor2.jpeg">
+<link rel="preload" as="image" href="prostor4.jpeg">
+</head>
+<body id="top">
+    
+    <div class="preload" data-preload>
+        <div class="circle"></div>
+        <p class="text">Pivnice Brown Frog</p>
+    </div>
+
+<div class="topbar">
+    <div class="container">
+        <address class="topbar-item">
+            <div class="icon">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">
+                
+                Záhumenní 1161/3A, 742 21 Kopřivnice 1
+            </span>
+        </address>
+
+        <div class="separator"></div>
+        <div class="topbar-item item-2">
+            <div class="icon">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">
+                Denně : 11:00 - 22:00
+            </span>
+        </div>
+        <a href="tel:11234567890" class="topbar-item link">
+            <div class="icon">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">+420 704 741 000</span>
+        </a>
+        <div class="separator"></div>
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+            <div class="icon">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">
+                
+
+                brownfrog@email.cz</span>
+        </a>
+    </div>
+</div>
+
+<header class="header" data-header>
+    <div class="container">
+        <a class="logo" href="#">
+            <img class="logoa" src="logo.jpg" width="110" height="50" alt="Grilli - Home">
+        </a>
+        <nav class="navbar" data-navbar>
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <a class="logo" href="#">
+                <img class="logoa" src="logo.jpg" width="110" height="50" alt="Grilli - Home">
+            </a>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+                <div class="span">Domů</div>
+            </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link hover-underline">
+                        <div class="separator"></div>
+                        <div class="span">Menu</div>
+                    </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#home" class="navbar-link hover-underline">
+                                <div class="separator"></div>
+                                <div class="span">O Nás</div>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#home" class="navbar-link hover-underline">
+                                <div class="separator"></div>
+                                <div class="span">Galerie</div>
+                            </a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="#home" class="navbar-link hover-underline">
+                                        <div class="separator"></div>
+                                        <div class="span">Kontakty</div>
+                                    </a>
+                                        </li>
+                
+            </ul>
+
+            <div class="text-center">
+                <p class="headline-1 navbar-title">Navštiv nás</p>
+
+                <address class="body-4">
+                    
+
+                    Záhumenní 1161/3a, 742 21 Kopřivnice</address>
+
+                <p class="body-4 navbar-text">Otveřeno: 11:00 - 22:00</p>
+                <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">
+                    
+brownfrog@email.cz</a>
+                <div class="separator"></div>
+                <p class="contact-label">Zavolej</p>
+                <a href="tel:88123123456" class="body-1 contact-number hover-underline">
+                    +420 704 741 000
+                </a>
+            </div>
+        </nav>
+
+        <a href="#" class="btn btn-secondary btnHeader">
+            <span class="text text-1">Rezervace</span>
+            <span class="text text-2"aria-hidden="true">Rezervace</span>                             
+        </a>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+</header>
+
+<main>
+    <article>
+
+
+        <section class="hero text-center" aria-label="home" id="home">
+            <ul class="hero-slide" data-hero-slider>
+                <li class="slider-item active" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img class="img-cover cover2" src="prostor5.jpeg" width="1880" height="950" alt="">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal">Pohoda & klid</p>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Brown Frog Restaurant
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">Přijď si užít klid a pohodu</p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">Naše Nabídka</span>
+                        <span class="text text-2" aria-hidden="true">Naše Nabídka</span>
+                    </a>
+                </li>
+                <li class="slider-item active" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img class="img-cover cover2" src="prostor3.jpeg" width="1880" height="950" alt="">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal">Radost & Smích</p>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Brown Frog Restaurant
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">Stylová pivnice v srdci Kopřivnice</p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">Naše Nabídka</span>
+                        <span class="text text-2" aria-hidden="true">Naše Nabídka</span>
+                    </a>
+                </li>
+                <li class="slider-item active" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img class="img-cover cover2" src="jidlo8.jpg" width="1880" height="950" alt="">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal">Úžasná & perfektní</p>
+
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Brown Frog Restaurant
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">Příjď za naší jedinečnou atmosférou a vychutnej si naše pivo a dobroty</p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">Naše Nabídka</span>
+                        <span class="text text-2" aria-hidden="true">Naše Nabídka</span>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+
+            <a href="" class="hero-btn has-after">
+                <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+                <span class="label-2 text-center span">Zavolej Nám</span>
+            </a>
+
+
+        </section>
+
+
+
+
+        <section class="section service bg-black-10 text-center" aria-label="service">
+            <div class="container">
+                <p class="section-subtitle label-2">Naše Nabídka</p>
+                <h2 class="headline-1 section-title">Nabízíme chutné dobroty</h2>
+
+                <p class="section-text">Přijď k nám si vychutnat naše skvělé pivo, limonády, speciality</p>
+
+                <ul class="grid-list">
+                    <li>
+                        <div class="service-card">
+                            <a href="#" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width:285; --height:336;">
+                                    <img src="jidlo1.webp" loading="lazy" width="285" height="336" alt="Breakfast" class="img-cover">
+                                </figure>
+                            </a>
+
+                            <div class="card-content">
+                                <h3 class="title-4 card-title">
+                                    <a href="#">dobroty</a>
+                                </h3>
+
+                                <a href="" class="btn-text hover-underline label-2">Naše Nabídka</a>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-card">
+                            <a href="#" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                    <img src="limo.jpg" loading="lazy" width="285" height="336" alt="Appetizers" class="img-cover">
+                                </figure>
+                            </a>
+
+                            <div class="card-content">
+                                <h3 class="title-4 card-title">
+                                    <a href="#">Domácí limonády</a>
+                                </h3>
+
+                                <a href="" class="btn-text hover-underline label-2">Naše Nabídka</a>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-card">
+                            <a href="#" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                    <img src="jidlo11.jpg" loading="lazy" width="285" height="336" alt="Drinks" class="img-cover">
+                                </figure>
+                            </a>
+
+                            <div class="card-content">
+                                <h3 class="title-4 card-title">
+                                    <a href="#">Dobroty</a>
+                                </h3>
+
+                                <a href="" class="btn-text hover-underline label-2">Naše Nabídka</a>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+
+                <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim">
+                <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+            </div>
+        </section>
+        <section id="onas">
+            <h2 class="nadpis">O Nás</h2>
+            <div class="cara"></div>
+            <div class="onas-container">
+                <figure class="onas-figure sekce">
+                    <img src="prostor1.webp" alt="" class="onas-image">
+                </figure>
+                <div class="onas-text sekce">
+                    
+                    <p class="onas-para">moderní pivnici s duší, která se nachází přímo na kopřivnickém náměstí. Nabízíme poctivou kuchyni, která spojuje to nejlepší z moderních trendů i tradiční české gastronomie. U nás si pochutnáte jak na šťavnatém burgeru nebo club sendviči, tak i na domácím guláši nebo svíčkové připravené tak, jak to máte rádi.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="menu">
+            <h2 class="nadpis">Naše Nabídka</h2>
+            <div class="cara"></div>
+            <div class="menu-container">
+                <div class="menu-blok sekce">
+                    <figure class="menu-figure">
+                        <img src="jidlo18.png" alt="" class="menu-image">
+                    </figure>
+                    <div class="menu-text">
+                        <h3 class="menu-h3">Dobroty</h3>
+                        <p class="menu-para">Široký výběr specialit, které ti dopřejí skvělou chuť a zdravou energii.</p>
+                    </div>
+                </div>
+                <div class="menu-blok sekce">
+                    <figure class="menu-figure">
+                        <img src="jidlo17.png" alt="" class="menu-image">
+                    </figure>
+                    <div class="menu-text">
+                        <h3 class="menu-h3">Dobroty</h3>
+                        <p class="menu-para">Široký výběr specialit, které ti dopřejí skvělou chuť a zdravou energii.</p>
+                    </div>
+                </div>
+                <div class="menu-blok sekce">
+                    <figure class="menu-figure">
+                        <img src="jidlo16.png" alt="" class="menu-image">
+                    </figure>
+                    <div class="menu-text">
+                        <h3 class="menu-h3">Dobroty</h3>
+                        <p class="menu-para">Široký výběr specialit, které ti dopřejí skvělou chuť a zdravou energii.</p>
+                    </div>
+                </div>
+                <div class="menu-blok sekce">
+                    <figure class="menu-figure">
+                        <img src="jidlo15.png" alt="" class="menu-image">
+                    </figure>
+                    <div class="menu-text">
+                        <h3 class="menu-h3">Dobroty</h3>
+                        <p class="menu-para">Široký výběr specialit, které ti dopřejí skvělou chuť a zdravou energii.</p>
+                    </div>
+                </div>
+                <div class="menu-blok sekce">
+                    <figure class="menu-figure">
+                        <img src="jidlo14.png" alt="" class="menu-image">
+                    </figure>
+                    <div class="menu-text">
+                        <h3 class="menu-h3">Dobroty</h3>
+                        <p class="menu-para">Široký výběr specialit, které ti dopřejí skvělou chuť a zdravou energii.</p>
+                    </div>
+                </div>
+                <div class="menu-blok sekce">
+                    <figure class="menu-figure">
+                        <img src="jidlo12.jpg" alt="" class="menu-image">
+                    </figure>
+                    <div class="menu-text">
+                        <h3 class="menu-h3">Dobroty</h3>
+                        <p class="menu-para">Široký výběr specialit, které ti dopřejí skvělou chuť a zdravou energii.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="dorty">
+            <h2 class="nadpis">Naše Prostory</h2>
+            <div class="cara"></div>
+           <div class="fullImgBox" id="fullImgBox">
+            <img src="" alt="" id="fullImg">
+            <span onclick="closeFullImg()">x</span>
+           </div>
+            <div class="dorty-container">
+                <figure class="dorty-figure sekce">
+                    <img src="prostor1.webp" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor5.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                   
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor3.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor4.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor1.webp" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor5.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                   
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor3.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor4.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor1.webp" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor5.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                   
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor3.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+                <figure class="dorty-figure sekce">
+                    <img src="prostor4.jpeg" alt="" class="dorty-image" onclick="openFullImg(this.src)">
+                    
+                </figure>
+               
+               
+                
+            </div>
+        </section>
+        
+        
+        <section id="hodnoceni">
+            <h2 class="nadpis">Naše Hodnocení</h2>
+            <div class="cara"></div>
+            <div class="hodnoceni-container sekce">
+                <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="hodnoceni-blok">
+                                <figure class="hodnoceni-figure">
+                                    <img src="user-1.jpg" alt="" class="hodnoceni-image">
+                                </figure>
+                                <div class="hodnoceni-text">
+                                    <h3 class="hodnoceni-h3">karolina Kadlecová</h3>
+                                    <p class="hodnoceni-para">"Dnes jsme byli vyzkoušet meníčko a musím smeknout před panem kuchařem, tak dobře jsme se nenajedli hodně dlouho"</p>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hodnoceni-blok">
+                                <figure class="hodnoceni-figure">
+                                    <img src="user-2.jpg" alt="" class="hodnoceni-image">
+                                </figure>
+                                <div class="hodnoceni-text">
+                                    <h3 class="hodnoceni-h3">Tomáš Šantora</h3>
+                                    <p class="hodnoceni-para">"Byli jsme překvapeni, obsluha byla rychlá, jídlo velmi dobré."</p>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hodnoceni-blok">
+                                <figure class="hodnoceni-figure">
+                                    <img src="user-4.jpg" alt="" class="hodnoceni-image">
+                                </figure>
+                                <div class="hodnoceni-text">
+                                    <h3 class="hodnoceni-h3">Jana Bartoňová</h3>
+                                    <p class="hodnoceni-para">Skvělá nabídka výborného poledního menu. Moc jsme si pochutnali a určitě se vrátíme."</p>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hodnoceni-blok">
+                                <figure class="hodnoceni-figure">
+                                    <img src="user-5.jpg" alt="" class="hodnoceni-image">
+                                </figure>
+                                <div class="hodnoceni-text">
+                                    <h3 class="hodnoceni-h3">Kuki Adamec</h3>
+                                    <p class="hodnoceni-para">"Milá obsluha vždy výborné jídlo a skvěle porce ♥️"</p>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        </div>
+                        
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                       
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <a target="_blank" class="hodnoceni-button" href="https://www.google.com/search?sa=X&sca_esv=75280e57e4653e14&cs=0&hl=cs-CZ&sxsrf=APpeQntyuZLc9kYtYx6AfcL4FLMrw6fBPQ:1784777793511&q=Brown+Frog+Restaurant+Recenze&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2tbCwtDA2NTUzNDMyNze0MDcz3cDI-IpR1qkovzxPwa0oP10hKLW4JLG0KDGvBMhMTs2rSl3Eil8eAIT7UvBaAAAA&rldimm=5889835561627718765&tbm=lcl&ved=2ahUKEwiDi4qz7-eVAxUxhv0HHWtDNtoQ9fQKegQIUhAG&biw=1920&bih=953&dpr=1#lkt=LocalPoiReviews">Všechny hodnocení</a>
+            </div>
+            
+        </section>
+        
+        <section id="galerie">
+            <h2 class="nadpis">Galerie</h2>
+            <div class="cara"></div>
+            <div class="fullImgBox" id="fullImgBox">
+                <img src="" alt="" id="fullImg">
+                <span onclick="closeFullImg()">x</span>
+            </div>
+            <div class="galerie-container">
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo1.webp" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo2.webp" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo3.webp" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo4.webp" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo5.webp" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo6.jpeg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo7.jpeg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo8.jpg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo9.jpg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo10.jpg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo11.jpg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo12.jpg" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo13.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo14.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo15.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+                <figure class="galerie-figure sekce">
+                    <img src="jidlo16.png" alt="" class="galerie-image" onclick="openFullImg(this.src)">
+                </figure>
+               
+            </div>
+        </section>
+        
+        
+        <section id="banner">
+            <div class="banner-container">
+               <img src="jidlo17.png" alt="" class="banner-image">
+               <img src="jidlo18.png" alt="" class="banner-image">
+               <img src="jidlo19.png" alt="" class="banner-image">
+               <img src="jidlo20.png" alt="" class="banner-image">
+               <img src="jidlo13.png" alt="" class="banner-image">
+               <img src="jidlo1.webp" alt="" class="banner-image">
+               <img src="jidlo2.webp" alt="" class="banner-image">
+               <img src="jidlo3.webp" alt="" class="banner-image">
+               <img src="jidlo4.webp" alt="" class="banner-image">
+               <img src="jidlo5.webp" alt="" class="banner-image">
+
+
+               <img src="jidlo17.png" alt="" class="banner-image">
+               <img src="jidlo18.png" alt="" class="banner-image">
+               <img src="jidlo19.png" alt="" class="banner-image">
+               <img src="jidlo20.png" alt="" class="banner-image">
+               <img src="jidlo13.png" alt="" class="banner-image">
+               <img src="jidlo1.webp" alt="" class="banner-image">
+               <img src="jidlo2.webp" alt="" class="banner-image">
+               <img src="jidlo3.webp" alt="" class="banner-image">
+               <img src="jidlo4.webp" alt="" class="banner-image">
+               <img src="jidlo5.webp" alt="" class="banner-image">
+
+               
+
+               
+        
+               
+        
+              
+            </div>
+        </section>
+        
+        
+        <section id="kontakty">
+            <h2 class="nadpis">Kde Nás Najdete</h2>
+            <div class="cara"></div>
+            <div class="kontakty-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.8691294250707!2d18.141548276899073!3d49.59866974832647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713ed0a7a9715e1%3A0x51bce63cd448946d!2sBrown%20Frog%20Restaurant!5e1!3m2!1scs!2scz!4v1784777197372!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                
+               
+               
+            </div>
+        </section>
+        
+       
+
+        
+
+    </article>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer section has-bg-image text-center" style="background-image:url('./assets/images/footer-bg.jpg') ;">
+    <div class="container">
+        <div class="footer-top grid-list">
+            <div class="footer-brand has-before has-after">
+                <a class="logo" href="#">
+                    <img src="logo.jpg" width="160" height="50" loading="lazy" alt="grilli home">
+                </a>
+                <address class="body-4">
+                    Záhumenní 1161/3a, 742 21 Kopřivnice
+                </address>
+                <a href="mailto:booking@grilli.com" class="body-4 contact-link">brownfrog@email.cz</a>
+
+                <a href="tel:88123123456" class="body-4 contact-link">Zavolej : +420 704 741 000</a>
+                <p class="body-4">Otevřeno : 11:00 - 22:00</p>
+                <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                </div>
+                
+               
+                <form action="" class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                        <input type="email" name="email-address" placeholder="Email" autocomplete="off" class="input-field">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Odeslat</span>
+                        <span class="text text-2" aria-hidden="true">Odeslat</span>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Domů</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Menu</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">O Nás</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Galerie</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Kontakty</a>
+                </li>
+                
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Facebook</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Instagram</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Twitter</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Youtube</a>
+                </li>
+                <li>
+                    <a href="" class="label-2 footer-link hover-underline">Google Mapy</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2026 | Vytvořil <a target="_blank" href="" class="link">Filip Jiřík</a></p>
+        </div>
+    </div>
+</footer>
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
